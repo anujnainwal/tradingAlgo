@@ -1,0 +1,134 @@
+
+.groupBy {
+    border: 1px dotted;
+    padding: 10px;
+    text-align: left;
+    margin: 15px 30px;
+    
+position: relative;  
+}
+.flexDiv {
+    display: flex;
+    flex: auto;
+   flex-wrap: wrap;
+    width: 95%;
+}  
+
+.flexDiv .rs-picker {
+    margin:5px;
+}
+.rs-input-group {
+    width: 150px !important; 
+}
+
+.rs-modal-wrapper{
+    display: flex;
+    align-items: center;
+    z-index: 9999 !important;
+  }
+
+  .rs-modal-sm {
+    width: 200px !important;
+}
+
+.rs-badge-content {
+    z-index: 88 !important;
+}
+.rs-toggle-presentation {
+background: #3498ff !important;
+}
+.modalBackdrop {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(2px) !important;
+}  
+
+
+.divIcon{
+    background: #efefef;
+    position: absolute;
+    cursor: pointer;
+    top: -20px;
+    right: -15px;
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.divIcon:hover {
+    box-shadow: 1px 1px 2px;
+}
+
+.rs-modal-content {
+    padding: 0px !important;
+}
+.rs-modal-header{
+    background: #10122b !important;
+    padding: 10px !important;
+    
+}
+.rs-modal-header h4, .rs-btn-close{
+    color: #ffffff !important;    
+}
+.rs-modal-body, .rs-modal-footer {
+    padding: 10px;
+}
+.AdditionalButton {
+    text-align: center !important;
+}
+
+
+.comment-container {
+   display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .chain {
+    border-left: 2px solid gray;
+    position: absolute;
+    height: 100%;
+    left: 11px; /* for you to adjust and line up */
+  }
+  
+  .chain-top {
+    top: 0;
+  }
+  
+  .chain-bottom {
+    top:50%;
+  }
+  
+  .comment {
+    width: 95% !important;
+  }
+ 
+  
+  .comment-icon {
+    margin-left: 11px;
+   
+    height: 2px;
+    width: 50px;
+  
+    margin-right: -30px;
+    background: gray;
+    color: gray;
+    z-index: 10;
+}
+.rs-btn {
+    border-radius: 0px !important;
+} 
+
+.logo {
+    height: 40px;
+    
+}
+
+.rs-navbar-brand {
+    padding:10px !important;
+    margin-left:20px;
+}
+.rs-navbar {
+background: #10122b !important;
+color: #ffffff !important;
+}
+ 
